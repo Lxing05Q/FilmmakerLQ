@@ -1,6 +1,11 @@
 /* =========================
    RESET Y BASE
 ========================= */
+:root {
+    --accent: #D6A15D;       /* Ámbar cálido / dorado cinematográfico */
+    --accent-hover: #E7B978;
+    --accent-soft: rgba(214, 161, 93, 0.18);
+}
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +55,7 @@ img {
 }
 
 .logo span {
-    color: #999;
+    color: var(--accent);
 }
 
 .nav {
@@ -70,7 +75,7 @@ img {
 
 .nav a:hover,
 .nav a:focus-visible {
-    color: #999;
+    color: var(--accent);
 }
 
 .menu-toggle {
@@ -133,7 +138,7 @@ img {
 .section-title h2 span,
 .about h2 span,
 .contact h2 span {
-    color: #777;
+    color: var(--accent);
 }
 
 .hero-description {
@@ -162,12 +167,12 @@ img {
 }
 
 .primary {
-    background: #fff;
-    color: #000;
+    background: var(--accent);
+    color: #080808;
 }
 
 .primary:hover {
-    background: #aaa;
+    background: var(--accent-hover);
 }
 
 .secondary {
@@ -176,7 +181,8 @@ img {
 }
 
 .secondary:hover {
-    border-color: #fff;
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 /* =========================
@@ -195,7 +201,7 @@ img {
 .section-title > p,
 .section-label {
     margin-bottom: 20px;
-    color: #777;
+    color: var(--accent);
     font-size: 11px;
     letter-spacing: 4px;
 }
@@ -269,7 +275,7 @@ img {
     z-index: 2;
     top: 18px;
     left: 18px;
-    color: #fff;
+    color: var(--accent);
     font-size: 12px;
     letter-spacing: 2px;
     text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
@@ -333,7 +339,7 @@ img {
 }
 
 .skill strong {
-    color: #555;
+    color: var(--accent);
     font-size: 12px;
 }
 
@@ -359,7 +365,7 @@ img {
 }
 
 .service > span {
-    color: #555;
+    color: var(--accent);
     font-size: 12px;
 }
 
@@ -408,7 +414,7 @@ img {
     width: fit-content;
     margin-top: 35px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid var(--accent);
     color: #fff;
     font-size: 20px;
     text-decoration: none;
@@ -432,7 +438,7 @@ img {
 
 .socials a:hover,
 .socials a:focus-visible {
-    color: #fff;
+    color: var(--accent);
 }
 
 /* =========================
